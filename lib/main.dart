@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
+///Runing the app
 void main() {
   runApp(const MyApp());
 }
 
+///This is the main class of the app
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -19,6 +21,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+///This is the home page of the app
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
@@ -28,6 +31,7 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
+///This is the state of the home page
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
